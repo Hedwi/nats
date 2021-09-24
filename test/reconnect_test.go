@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hedwi/nats"
 	"github.com/nats-io/nats-server/v2/server"
-	"github.com/nats-io/nats.go"
 )
 
 func startReconnectServer(t *testing.T) *server.Server {

@@ -16,7 +16,7 @@ package protobuf
 import (
 	"errors"
 
-	"github.com/nats-io/nats.go"
+	"github.com/hedwi/nats"
 	"google.golang.org/protobuf/proto"
 )
 

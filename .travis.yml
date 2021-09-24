@@ -2,7 +2,7 @@ language: go
 go:
 - 1.16.x
 - 1.15.x
-go_import_path: github.com/nats-io/nats.go
+go_import_path: github.com/hedwi/nats
 install:
 - go get -t ./...
 - go get github.com/mattn/goveralls

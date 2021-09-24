@@ -11,6 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build go1.7
 // +build go1.7
 
 package test
@@ -22,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/hedwi/nats"
 )
 
 func TestContextRequestWithNilConnection(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/bench"
+	"github.com/hedwi/nats"
+	"github.com/hedwi/nats/bench"
 )
 
 // Some sane defaults

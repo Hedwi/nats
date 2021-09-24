@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/encoders/builtin"
+	"github.com/hedwi/nats"
+	"github.com/hedwi/nats/encoders/builtin"
 )
 
 func NewJsonEncodedConn(tl TestLogger) *nats.EncodedConn {

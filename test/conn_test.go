@@ -29,9 +29,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hedwi/nats"
 	"github.com/nats-io/nats-server/v2/server"
 	"github.com/nats-io/nats-server/v2/test"
-	"github.com/nats-io/nats.go"
 )
 
 func TestDefaultConnection(t *testing.T) {
